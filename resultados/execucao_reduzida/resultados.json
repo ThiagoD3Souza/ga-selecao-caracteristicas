@@ -1,0 +1,812 @@
+{
+  "resumo": {
+    "C1_completo": {
+      "n_atributos": {
+        "media": 30.0,
+        "dp": 0.0
+      },
+      "acuracia": {
+        "media": 0.9648812296227295,
+        "dp": 0.016369378924724853
+      },
+      "precisao": {
+        "media": 0.9676190476190476,
+        "dp": 0.03489537325821191
+      },
+      "sensibilidade": {
+        "media": 0.9386489479512734,
+        "dp": 0.03575482517221656
+      },
+      "f1": {
+        "media": 0.9522691905044847,
+        "dp": 0.0217692861844836
+      },
+      "t_busca_s": {
+        "media": 0.0,
+        "dp": 0.0
+      },
+      "t_treino_s": {
+        "media": 0.16249712200003613,
+        "dp": 0.010903012232859695
+      },
+      "t_inferencia_s": {
+        "media": 0.006181878399956986,
+        "dp": 0.0005450602106231131
+      },
+      "avaliacoes": {
+        "media": 0.0,
+        "dp": 0.0
+      },
+      "n_dobras": 5
+    },
+    "C2_AG": {
+      "n_atributos": {
+        "media": 5.4,
+        "dp": 1.3416407864998738
+      },
+      "acuracia": {
+        "media": 0.9666356155876418,
+        "dp": 0.018984964017367895
+      },
+      "precisao": {
+        "media": 0.9761850741431003,
+        "dp": 0.02916335126806456
+      },
+      "sensibilidade": {
+        "media": 0.9338870431893687,
+        "dp": 0.03888131526467058
+      },
+      "f1": {
+        "media": 0.9541130566827686,
+        "dp": 0.025989732652938767
+      },
+      "t_busca_s": {
+        "media": 85.19424793460004,
+        "dp": 4.830599860259043
+      },
+      "t_treino_s": {
+        "media": 0.15255165920004857,
+        "dp": 0.03230501997773755
+      },
+      "t_inferencia_s": {
+        "media": 0.007795199800011687,
+        "dp": 0.0016185794698379318
+      },
+      "avaliacoes": {
+        "media": 226.2,
+        "dp": 14.956603892595405
+      },
+      "n_dobras": 5
+    },
+    "C3_Filter": {
+      "n_atributos": {
+        "media": 5.4,
+        "dp": 1.3416407864998738
+      },
+      "acuracia": {
+        "media": 0.9420586865393572,
+        "dp": 0.028087102017970662
+      },
+      "precisao": {
+        "media": 0.9308192549657172,
+        "dp": 0.046688277228533095
+      },
+      "sensibilidade": {
+        "media": 0.9149501661129568,
+        "dp": 0.07196801119306388
+      },
+      "f1": {
+        "media": 0.9209404974110857,
+        "dp": 0.03889447606413884
+      },
+      "t_busca_s": {
+        "media": 0.0011124322000114263,
+        "dp": 0.00021139585588893093
+      },
+      "t_treino_s": {
+        "media": 0.13343405420000637,
+        "dp": 0.010644821910513082
+      },
+      "t_inferencia_s": {
+        "media": 0.007098015000065061,
+        "dp": 0.0015922489127618942
+      },
+      "avaliacoes": {
+        "media": 0.0,
+        "dp": 0.0
+      },
+      "n_dobras": 5
+    },
+    "C4_aleatoria": {
+      "n_atributos": {
+        "media": 5.0,
+        "dp": 1.0
+      },
+      "acuracia": {
+        "media": 0.9490451793199813,
+        "dp": 0.02091087592843237
+      },
+      "precisao": {
+        "media": 0.9471288820126029,
+        "dp": 0.029347863363663993
+      },
+      "sensibilidade": {
+        "media": 0.9148394241417497,
+        "dp": 0.04944849129316731
+      },
+      "f1": {
+        "media": 0.929974010559533,
+        "dp": 0.029393240020997472
+      },
+      "t_busca_s": {
+        "media": 85.824662835,
+        "dp": 6.430639027806041
+      },
+      "t_treino_s": {
+        "media": 0.13247178000001442,
+        "dp": 0.01249371675612683
+      },
+      "t_inferencia_s": {
+        "media": 0.006004676199972891,
+        "dp": 0.00027075774712166873
+      },
+      "avaliacoes": {
+        "media": 226.2,
+        "dp": 14.956603892595405
+      },
+      "n_dobras": 5
+    }
+  },
+  "selecao_por_dobra": [
+    {
+      "semente": 0,
+      "dobra": 1,
+      "atributos": [
+        "mean texture",
+        "area error",
+        "concavity error",
+        "worst texture",
+        "worst area",
+        "worst concave points",
+        "worst fractal dimension"
+      ],
+      "aptidao_interna": 0.960842490842491,
+      "acc_interna": 0.9824175824175825
+    },
+    {
+      "semente": 0,
+      "dobra": 2,
+      "atributos": [
+        "compactness error",
+        "symmetry error",
+        "worst radius",
+        "worst texture",
+        "worst concave points",
+        "worst symmetry"
+      ],
+      "aptidao_interna": 0.9443956043956043,
+      "acc_interna": 0.9604395604395604
+    },
+    {
+      "semente": 0,
+      "dobra": 3,
+      "atributos": [
+        "mean concave points",
+        "concave points error",
+        "worst texture",
+        "worst area"
+      ],
+      "aptidao_interna": 0.953040293040293,
+      "acc_interna": 0.9626373626373625
+    },
+    {
+      "semente": 0,
+      "dobra": 4,
+      "atributos": [
+        "mean concave points",
+        "mean fractal dimension",
+        "worst texture",
+        "worst perimeter"
+      ],
+      "aptidao_interna": 0.9490842490842493,
+      "acc_interna": 0.9582417582417584
+    },
+    {
+      "semente": 0,
+      "dobra": 5,
+      "atributos": [
+        "mean concave points",
+        "mean symmetry",
+        "symmetry error",
+        "fractal dimension error",
+        "worst texture",
+        "worst area"
+      ],
+      "aptidao_interna": 0.9523291925465839,
+      "acc_interna": 0.9692546583850932
+    }
+  ],
+  "frequencia_atributos": {
+    "worst texture": 5,
+    "mean concave points": 3,
+    "worst area": 3,
+    "symmetry error": 2,
+    "worst concave points": 2,
+    "area error": 1,
+    "compactness error": 1,
+    "concave points error": 1,
+    "concavity error": 1,
+    "fractal dimension error": 1,
+    "mean fractal dimension": 1,
+    "mean symmetry": 1,
+    "mean texture": 1,
+    "worst fractal dimension": 1,
+    "worst perimeter": 1,
+    "worst radius": 1,
+    "worst symmetry": 1
+  },
+  "ingenuo": [
+    {
+      "semente": 0,
+      "n_atributos": 5,
+      "acc_cv_da_busca": 0.9666356155876417,
+      "tempo_s": 71.15277349400003
+    }
+  ],
+  "diferenca_acuracia_AG_menos_completo": [
+    0.0,
+    0.01754385964912275,
+    0.0,
+    -0.00877192982456143,
+    0.0
+  ],
+  "historico_ag": [
+    {
+      "semente": 0,
+      "dobra": 1,
+      "historico": [
+        {
+          "geracao": 0,
+          "melhor_aptidao": 0.9362637362637362,
+          "aptidao_media": 0.9160836385836385,
+          "atributos_do_melhor": 12
+        },
+        {
+          "geracao": 1,
+          "melhor_aptidao": 0.9362637362637362,
+          "aptidao_media": 0.9226449938949939,
+          "atributos_do_melhor": 12
+        },
+        {
+          "geracao": 2,
+          "melhor_aptidao": 0.9476190476190478,
+          "aptidao_media": 0.9274114774114773,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 3,
+          "melhor_aptidao": 0.9476190476190478,
+          "aptidao_media": 0.9334432234432234,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 4,
+          "melhor_aptidao": 0.9483516483516482,
+          "aptidao_media": 0.937579365079365,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 5,
+          "melhor_aptidao": 0.9515750915750917,
+          "aptidao_media": 0.9424481074481075,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 6,
+          "melhor_aptidao": 0.9515750915750917,
+          "aptidao_media": 0.9433119658119659,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 7,
+          "melhor_aptidao": 0.954908424908425,
+          "aptidao_media": 0.9460180097680099,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 8,
+          "melhor_aptidao": 0.954908424908425,
+          "aptidao_media": 0.9482478632478634,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 9,
+          "melhor_aptidao": 0.954908424908425,
+          "aptidao_media": 0.946304945054945,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 10,
+          "melhor_aptidao": 0.9576190476190476,
+          "aptidao_media": 0.9468650793650794,
+          "atributos_do_melhor": 5
+        },
+        {
+          "geracao": 11,
+          "melhor_aptidao": 0.958864468864469,
+          "aptidao_media": 0.9497710622710623,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 12,
+          "melhor_aptidao": 0.958864468864469,
+          "aptidao_media": 0.9492200854700856,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 13,
+          "melhor_aptidao": 0.958864468864469,
+          "aptidao_media": 0.9493421855921856,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 14,
+          "melhor_aptidao": 0.958864468864469,
+          "aptidao_media": 0.9539713064713066,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 15,
+          "melhor_aptidao": 0.960842490842491,
+          "aptidao_media": 0.9533898046398047,
+          "atributos_do_melhor": 7
+        }
+      ],
+      "avaliacoes_pedidas": 384,
+      "avaliacoes_unicas": 221
+    },
+    {
+      "semente": 0,
+      "dobra": 2,
+      "historico": [
+        {
+          "geracao": 0,
+          "melhor_aptidao": 0.925128205128205,
+          "aptidao_media": 0.9025625763125763,
+          "atributos_do_melhor": 10
+        },
+        {
+          "geracao": 1,
+          "melhor_aptidao": 0.9298168498168499,
+          "aptidao_media": 0.9116498778998778,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 2,
+          "melhor_aptidao": 0.9298168498168499,
+          "aptidao_media": 0.9201037851037851,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 3,
+          "melhor_aptidao": 0.9304395604395603,
+          "aptidao_media": 0.9226434676434677,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 4,
+          "melhor_aptidao": 0.9304395604395603,
+          "aptidao_media": 0.9240628815628815,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 5,
+          "melhor_aptidao": 0.9345054945054945,
+          "aptidao_media": 0.9257112332112332,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 6,
+          "melhor_aptidao": 0.9377289377289377,
+          "aptidao_media": 0.9264713064713064,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 7,
+          "melhor_aptidao": 0.9377289377289377,
+          "aptidao_media": 0.9266147741147742,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 8,
+          "melhor_aptidao": 0.9377289377289377,
+          "aptidao_media": 0.9282112332112332,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 9,
+          "melhor_aptidao": 0.9377289377289377,
+          "aptidao_media": 0.9299328449328449,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 10,
+          "melhor_aptidao": 0.939084249084249,
+          "aptidao_media": 0.9297985347985347,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 11,
+          "melhor_aptidao": 0.939084249084249,
+          "aptidao_media": 0.9313293650793649,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 12,
+          "melhor_aptidao": 0.939084249084249,
+          "aptidao_media": 0.9330265567765568,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 13,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9329014041514041,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 14,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9351755189255188,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 15,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9372710622710622,
+          "atributos_do_melhor": 6
+        }
+      ],
+      "avaliacoes_pedidas": 384,
+      "avaliacoes_unicas": 231
+    },
+    {
+      "semente": 0,
+      "dobra": 3,
+      "historico": [
+        {
+          "geracao": 0,
+          "melhor_aptidao": 0.933040293040293,
+          "aptidao_media": 0.905091575091575,
+          "atributos_do_melhor": 10
+        },
+        {
+          "geracao": 1,
+          "melhor_aptidao": 0.9343956043956043,
+          "aptidao_media": 0.9129975579975579,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 2,
+          "melhor_aptidao": 0.9343956043956043,
+          "aptidao_media": 0.916031746031746,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 3,
+          "melhor_aptidao": 0.9343956043956043,
+          "aptidao_media": 0.9201633089133089,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 4,
+          "melhor_aptidao": 0.9377289377289377,
+          "aptidao_media": 0.9261828449328449,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 5,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9304746642246643,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 6,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9331303418803417,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 7,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.930874542124542,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 8,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9322802197802197,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 9,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9343894993894993,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 10,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9382738095238095,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 11,
+          "melhor_aptidao": 0.9443956043956043,
+          "aptidao_media": 0.9395405982905983,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 12,
+          "melhor_aptidao": 0.9497069597069596,
+          "aptidao_media": 0.940607448107448,
+          "atributos_do_melhor": 5
+        },
+        {
+          "geracao": 13,
+          "melhor_aptidao": 0.9497069597069596,
+          "aptidao_media": 0.9426297313797313,
+          "atributos_do_melhor": 5
+        },
+        {
+          "geracao": 14,
+          "melhor_aptidao": 0.9497069597069596,
+          "aptidao_media": 0.9437713675213674,
+          "atributos_do_melhor": 5
+        },
+        {
+          "geracao": 15,
+          "melhor_aptidao": 0.953040293040293,
+          "aptidao_media": 0.9425351037851036,
+          "atributos_do_melhor": 4
+        }
+      ],
+      "avaliacoes_pedidas": 384,
+      "avaliacoes_unicas": 228
+    },
+    {
+      "semente": 0,
+      "dobra": 4,
+      "historico": [
+        {
+          "geracao": 0,
+          "melhor_aptidao": 0.919084249084249,
+          "aptidao_media": 0.9006349206349206,
+          "atributos_do_melhor": 13
+        },
+        {
+          "geracao": 1,
+          "melhor_aptidao": 0.9224175824175823,
+          "aptidao_media": 0.9062332112332112,
+          "atributos_do_melhor": 12
+        },
+        {
+          "geracao": 2,
+          "melhor_aptidao": 0.9297069597069597,
+          "aptidao_media": 0.9148824786324786,
+          "atributos_do_melhor": 11
+        },
+        {
+          "geracao": 3,
+          "melhor_aptidao": 0.9397069597069598,
+          "aptidao_media": 0.9201587301587301,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 4,
+          "melhor_aptidao": 0.9397069597069598,
+          "aptidao_media": 0.9225106837606837,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 5,
+          "melhor_aptidao": 0.9397069597069598,
+          "aptidao_media": 0.9275747863247864,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 6,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.930399877899878,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 7,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9332783882783883,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 8,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9370970695970696,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 9,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9430433455433457,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 10,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9451312576312576,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 11,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9444459706959707,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 12,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9447542735042737,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 13,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9435866910866911,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 14,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9460073260073262,
+          "atributos_do_melhor": 4
+        },
+        {
+          "geracao": 15,
+          "melhor_aptidao": 0.9490842490842493,
+          "aptidao_media": 0.9450839438339441,
+          "atributos_do_melhor": 4
+        }
+      ],
+      "avaliacoes_pedidas": 384,
+      "avaliacoes_unicas": 205
+    },
+    {
+      "semente": 0,
+      "dobra": 5,
+      "historico": [
+        {
+          "geracao": 0,
+          "melhor_aptidao": 0.9172591176939003,
+          "aptidao_media": 0.9038448266709137,
+          "atributos_do_melhor": 10
+        },
+        {
+          "geracao": 1,
+          "melhor_aptidao": 0.9251712056059883,
+          "aptidao_media": 0.9080602338482774,
+          "atributos_do_melhor": 10
+        },
+        {
+          "geracao": 2,
+          "melhor_aptidao": 0.9298168498168499,
+          "aptidao_media": 0.915806424855338,
+          "atributos_do_melhor": 8
+        },
+        {
+          "geracao": 3,
+          "melhor_aptidao": 0.9344171046344959,
+          "aptidao_media": 0.9214033882783883,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 4,
+          "melhor_aptidao": 0.9344171046344959,
+          "aptidao_media": 0.9239709083187343,
+          "atributos_do_melhor": 9
+        },
+        {
+          "geracao": 5,
+          "melhor_aptidao": 0.9411052715400542,
+          "aptidao_media": 0.9298750796305143,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 6,
+          "melhor_aptidao": 0.9469963369963371,
+          "aptidao_media": 0.9311150926368318,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 7,
+          "melhor_aptidao": 0.9469963369963371,
+          "aptidao_media": 0.9353730689600255,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 8,
+          "melhor_aptidao": 0.9469963369963371,
+          "aptidao_media": 0.9359572583213889,
+          "atributos_do_melhor": 7
+        },
+        {
+          "geracao": 9,
+          "melhor_aptidao": 0.9483516483516484,
+          "aptidao_media": 0.9386872909698996,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 10,
+          "melhor_aptidao": 0.9497284599458513,
+          "aptidao_media": 0.9427027923767054,
+          "atributos_do_melhor": 5
+        },
+        {
+          "geracao": 11,
+          "melhor_aptidao": 0.9497284599458513,
+          "aptidao_media": 0.9421071893082763,
+          "atributos_do_melhor": 5
+        },
+        {
+          "geracao": 12,
+          "melhor_aptidao": 0.9523291925465839,
+          "aptidao_media": 0.9420115663322185,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 13,
+          "melhor_aptidao": 0.9523291925465839,
+          "aptidao_media": 0.9421998924988055,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 14,
+          "melhor_aptidao": 0.9523291925465839,
+          "aptidao_media": 0.9443177987471466,
+          "atributos_do_melhor": 6
+        },
+        {
+          "geracao": 15,
+          "melhor_aptidao": 0.9523291925465839,
+          "aptidao_media": 0.9460331395657482,
+          "atributos_do_melhor": 6
+        }
+      ],
+      "avaliacoes_pedidas": 384,
+      "avaliacoes_unicas": 246
+    }
+  ],
+  "ambiente": {
+    "python": "3.13.18",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "plataforma": "Linux-6.18.44-fc-v233-x86_64-with-glibc2.39",
+    "cpus": 2,
+    "argumentos": {
+      "pop": 24,
+      "gens": 15,
+      "arvores": 100,
+      "k_interno": 5,
+      "k_externo": 5,
+      "alfa": 0.9,
+      "torneio": 3,
+      "pc": 0.8,
+      "pm": 0.02,
+      "elite": 1,
+      "seeds": [
+        0
+      ],
+      "n_jobs": 2,
+      "saida": "resultados_reduzido",
+      "sem_aleatoria": false,
+      "sem_ingenuo": false
+    },
+    "tempo_total_s": 929.439321508
+  }
+}

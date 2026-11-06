@@ -1,0 +1,41 @@
+RESUMO (média ± desvio-padrão entre as dobras externas; classe positiva = Maligno)
+
+Configuração             Atrib.     Acurácia %     Precisão %      Sensib. %           F1 %
+C1 completo (30)           30.0     96.49±1.64     96.76±3.49     93.86±3.58     95.23±2.18
+C2 AG                       5.4     96.66±1.90     97.62±2.92     93.39±3.89     95.41±2.60
+C3 Filter (mesmo k)         5.4     94.21±2.81     93.08±4.67     91.50±7.20     92.09±3.89
+C4 aleatória                5.0     94.90±2.09     94.71±2.93     91.48±4.94     93.00±2.94
+
+TEMPOS (média por dobra, segundos)
+Configuração                Busca   Treino final   Inferência  Avaliações
+C1 completo (30)             0.00         0.1625       0.0062           0
+C2 AG                       85.19         0.1526       0.0078         226
+C3 Filter (mesmo k)          0.00         0.1334       0.0071           0
+C4 aleatória                85.82         0.1325       0.0060         226
+
+Diferença de acurácia AG - completo por dobra (p.p.): [0.0, 1.75, 0.0, -0.88, 0.0]  média = 0.18
+Dobras em que o AG foi >= completo: 4 de 5
+
+FREQUÊNCIA DE SELEÇÃO DOS ATRIBUTOS PELO AG (nº de dobras, de 5)
+  5  worst texture
+  3  mean concave points
+  3  worst area
+  2  symmetry error
+  2  worst concave points
+  1  area error
+  1  compactness error
+  1  concave points error
+  1  concavity error
+  1  fractal dimension error
+  1  mean fractal dimension
+  1  mean symmetry
+  1  mean texture
+  1  worst fractal dimension
+  1  worst perimeter
+  1  worst radius
+  1  worst symmetry
+
+MODO INGÊNUO (AG sobre todos os dados; acurácia de CV usada na própria busca)
+  semente 0: 5 atributos, acurácia de CV da busca = 96.66%
+
+Tempo total: 929 s

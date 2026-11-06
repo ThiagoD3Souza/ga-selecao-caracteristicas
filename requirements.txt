@@ -1,0 +1,4 @@
+# Versões com que o experimento foi executado (Python 3.13)
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
